@@ -2,7 +2,6 @@
 use arboard::ImageData;
 use chrono::prelude::*;
 use clap::ValueEnum;
-use dark_light;
 use preferences::Preferences;
 use serde::{Deserialize, Serialize};
 
