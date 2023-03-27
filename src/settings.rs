@@ -55,9 +55,9 @@ impl Default for AppSettings {
         };
 
         Self {
+            theme,
             max_capacity: 10000,
             tick_save: 2000,
-            theme,
             transparent: true,
             store: true,
             is_changed: false,
